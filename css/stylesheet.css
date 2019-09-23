@@ -1,0 +1,94 @@
+.icon-box {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+
+#icon-select {
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  background-size: 100%;
+}
+
+.spacer {
+  width: 400px;
+}
+
+#div-wrapper-selected {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  border: 1px solid #9ba0a3; /* Light grey */
+  background-size:100%;
+  display: inline-block;
+}
+
+.wrapper-icon-box1 {
+  text-align: center;
+  background-image: url("../images/img1.png");
+}
+
+.wrapper-icon-box2 {
+  background-image: url("../images/img2.png");
+}
+
+.wrapper-icon-box3 {
+  background-image: url("../images/img3.png");
+}
+
+.wrapper-icon-box4 {
+  background-image: url("../images/img4.png");
+}
+
+.wrapper-icon-box5 {
+  background-image: url("../images/img5.png");
+}
+
+.wrapper-icon-box6 {
+  background-image: url("../images/img6.png");
+}
+
+.icon-bg {
+  display: inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background: transparent;
+}
+
+  /* ----------- Loader Animation ----------*/
+
+  .wrapper {
+    width: 55px;
+    height: 55px;
+    background-size:100%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .loader {
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-right: 3px solid #3498db; /* Blue */
+    border-left: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
