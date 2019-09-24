@@ -62,7 +62,7 @@ if ( typeof Object.create !== 'function' ) {
                 };
 
                 self.$elem.on({
-                    mouseenter: function(event) {
+                    click: function(event) {
                         if (self.$elem.hasClass('pressed')) {
                             clearTimeout(moveTime);
                         } else {
