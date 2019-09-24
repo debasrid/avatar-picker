@@ -122,11 +122,12 @@
   color: white;
 }
 .tool-container {
-  background-color: #696d5e;
+  background-color: #2c3033;
   background-size: 100% 100%;
   border-radius: 6px;
   position: absolute;
-  width: 240px;
+  width: 340px;
+  padding-left: 15px;
 }
 .tool-container.tool-top,
 .tool-container.tool-bottom {
@@ -151,38 +152,7 @@
 .tool-item > .icon-box {
   color: #b2c6cd;
 }
-.tool-item.selected,
-.tool-item:hover {
-  
-}
-.tool-item.selected > .icon-box,
-.tool-item:hover > .icon-box {
-  color: white;
-}
-.tool-top .tool-item:first-child:hover,
-.tool-bottom .tool-item:first-child:hover {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-.tool-top .tool-item:last-child:hover,
-.tool-bottom .tool-item:last-child:hover {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
-.tool-vertical-top .tool-item:first-child:hover,
-.tool-vertical-bottom .tool-item:first-child:hover,
-.tool-right .tool-item:first-child:hover,
-.tool-left .tool-item:first-child:hover {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
-.tool-vertical-top .tool-item:last-child:hover,
-.tool-vertical-bottom .tool-item:last-child:hover,
-.tool-right .tool-item:last-child:hover,
-.tool-left .tool-item:last-child:hover {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
+
 .tool-container .arrow {
   width: 0;
   height: 0;

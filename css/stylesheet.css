@@ -23,13 +23,18 @@
 }
 
 #div-wrapper-selected {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  border: 1px solid #9ba0a3; /* Light grey */
+  border: 1px solid transparent; /* Light grey */
   background-size:100%;
   display: inline-block;
+}
+
+#div-wrapper-selected:hover {
+  border: 1px solid #9ba0a3; /* Light grey */
+  cursor: pointer;
 }
 
 .wrapper-icon-box1 {
@@ -65,11 +70,22 @@
   background: transparent;
 }
 
+.s {
+  border: 3px solid #9ba0a3; /* Light grey */
+  width: 60px;
+  height: 60px;
+  background-size:100%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
   /* ----------- Loader Animation ----------*/
 
   .wrapper {
-    width: 55px;
-    height: 55px;
+    border: 3px solid #2c3033; /* Light grey */
+    width: 60px;
+    height: 60px;
     background-size:100%;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -78,14 +94,14 @@
 
   .loader {
     border: 3px solid #f3f3f3; /* Light grey */
-    border-top: 3px solid #3498db; /* Blue */
-    border-right: 3px solid #3498db; /* Blue */
-    border-left: 3px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    animation: spin 2s linear infinite;
+    border-top: 3px solid rgba(122,161,178,.5); /* Blue */
+    border-right: 3px solid rgba(122,161,178,.5); /* Blue */
+    border-left: 3px solid rgba(122,161,178,.5); /* Blue */
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation: spin 0.5s linear infinite;
   }
   
   @keyframes spin {
